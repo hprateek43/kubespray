@@ -5,14 +5,14 @@ metadata:
   namespace: kube-system
 data:
   config: |
-    cluster-name: ${cluster_name}
+    cluster-name: cluster_name
     openstack:
-      auth-url: ${auth_url}
-      domain-name: ${domain-name}
-      username: ${user_id}
-      password: ${password}
-      project-id: ${project_id}
-      region: ${region}
+      auth-url: auth_url
+      domain-name: domain-name
+      username: user_id
+      password: password
+      project-id: project_id
+      region: region
     octavia:
-      subnet-id: ${subnet_id}
-      floating-network-id: ${public_net_id}
+      subnet-id: subnet_id
+      floating-network-id: public_net_id
